@@ -1,6 +1,6 @@
 {
   "name": "@fabioespindola/tellme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Apply events to DOM elements and learn more about your user behavior",
   "main": "dist/index.js",
   "types": "index.d.ts",
