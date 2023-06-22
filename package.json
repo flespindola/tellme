@@ -20,6 +20,9 @@
     "click",
     "buttons"
   ],
+  "compilerOptions": {
+    "declaration": true
+  },
   "author": "Fabio Espindola",
   "license": "ISC",
   "bugs": {
