@@ -1,0 +1,1 @@
+import attachClickEvent from './attachClick'
