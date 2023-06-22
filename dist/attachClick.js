@@ -4,7 +4,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
-function attachClick(items = []) {
+function attachClick(items = [], route = '/api/click', headers = {}) {
     if (items.length > 0) {
         try {
             const validItems = items.filter((item) => {
@@ -28,7 +28,7 @@ function attachClick(items = []) {
                             datetime: new Date().toISOString().slice(0, 19).replace('T', ' '),
                         };
                         axios_1.default
-                            .post('', clickData)
+                            .post(route, clickData, headers)
                             .then((response) => {
                             console.log(response.data);
                         }).catch((error) => {

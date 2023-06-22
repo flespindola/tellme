@@ -1,5 +1,5 @@
 {
-  "name": "tellme",
+  "name": "@fabioespindola/tellme",
   "version": "1.0.0",
   "description": "Apply events to DOM elements and learn more about your user behavior",
   "main": "dist/index.js",
