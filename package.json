@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Apply events to DOM elements and learn more about your user behavior",
   "main": "dist/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean"
