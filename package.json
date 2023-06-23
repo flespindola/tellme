@@ -23,6 +23,10 @@
   "compilerOptions": {
     "declaration": true
   },
+  "exports": {
+    ".": "./dist/index.js",
+    "./attachClick": "./dist/attachClick.js"
+  },
   "author": "Fabio Espindola",
   "license": "ISC",
   "bugs": {

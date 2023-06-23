@@ -11,7 +11,7 @@ npm install @fabioespindola/tellme
 ## Usage
 
 ```bash
-import attachClick from '@fabioespindola/tellme'
+import attachClick from '@fabioespindola/tellme/attachClick'
 
 const selectors = [ '.myClass1', '.myClass2', '#myId1', '#myId2', ... ]
 const url = 'api endpoint'
